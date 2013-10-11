@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="X3Store.Web.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>X3Store</title>
+    <link href="Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadPH" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="MainScriptManager" />
+        <div>
+            <div class="header">
+                <div class="headerContainer">
+                    <div class="headerNavigation">
+                        <asp:SiteMapDataSource ID="SiteMapDataSourceTop" runat="server" ShowStartingNode="False" />
+                        <asp:Menu ID="TopMenu" runat="server" DataSourceID="SiteMapDataSourceTop" Orientation="Horizontal" />
+                        <a href="/Credentials/Profile.aspx"><asp:LoginName ID="CurrentUserName" runat="server" /></a>
+                        <asp:LoginStatus ID="CurrentUserStatus" runat="server" LoginText="Вход / Регистрация" />
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="siteTitle"><asp:Label runat="server" ID="SiteTitle"></asp:Label></div>
+                <div class="mainContent">
+                    <asp:ContentPlaceHolder runat="server" ID="MainContentPH" />
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+    </form>
+</body>
+</html>

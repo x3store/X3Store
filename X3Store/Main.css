@@ -1,0 +1,27 @@
+﻿body {
+}
+.header {
+    background-color: #800000;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.headerContainer {
+    background-color: #87e528;
+    height: 40px;
+    width: 800px;
+}
+.sideNavigation {
+    width: 140px;
+    background-color: #808000;
+    float: left;
+}
+.mainContent {
+    overflow: hidden;
+    background-color: #C0C0C0;
+}
+.footer {
+    height: 60px;
+    background-color: #FF00FF;
+    vertical-align: bottom;
+}

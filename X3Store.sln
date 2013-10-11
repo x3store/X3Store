@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X3Store", "X3Store\X3Store.csproj", "{698AD2CE-39EF-4C5A-A12D-4CD06B584BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurations", "Configurations\Configurations.csproj", "{76C94F23-47CA-45F8-860B-6B51E777B078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{61F2BE7B-C19B-4497-9C4C-47D094A257D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{A1356A67-068D-4423-A852-00E1F5E54B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{06CE7269-FB6A-4CA4-AF85-1415806B9AD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698AD2CE-39EF-4C5A-A12D-4CD06B584BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698AD2CE-39EF-4C5A-A12D-4CD06B584BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698AD2CE-39EF-4C5A-A12D-4CD06B584BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698AD2CE-39EF-4C5A-A12D-4CD06B584BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C94F23-47CA-45F8-860B-6B51E777B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C94F23-47CA-45F8-860B-6B51E777B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C94F23-47CA-45F8-860B-6B51E777B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C94F23-47CA-45F8-860B-6B51E777B078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F2BE7B-C19B-4497-9C4C-47D094A257D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F2BE7B-C19B-4497-9C4C-47D094A257D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F2BE7B-C19B-4497-9C4C-47D094A257D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F2BE7B-C19B-4497-9C4C-47D094A257D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1356A67-068D-4423-A852-00E1F5E54B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1356A67-068D-4423-A852-00E1F5E54B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1356A67-068D-4423-A852-00E1F5E54B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1356A67-068D-4423-A852-00E1F5E54B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CE7269-FB6A-4CA4-AF85-1415806B9AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CE7269-FB6A-4CA4-AF85-1415806B9AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CE7269-FB6A-4CA4-AF85-1415806B9AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CE7269-FB6A-4CA4-AF85-1415806B9AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Security.5.0.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.Database.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

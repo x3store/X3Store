@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="" title="Main" description="Main" roles="*">
+    <siteMapNode url="~/Default.aspx" title="Домой" description="Домашняя страница" />
+    <siteMapNode url="~/About.aspx" title="О нас" description="О нас" />
+    <siteMapNode url="~/Delivery.aspx" title="Доставка" description="Условия доставки" />
+    <siteMapNode url="~/Feedback.aspx" title="Обратная связь" description="Связаться с нами" />
+    <siteMapNode url="Administration/Users.aspx" title="Администрирование" description="Администрирование" roles="Emperor" />
+  </siteMapNode>
+</siteMap>
